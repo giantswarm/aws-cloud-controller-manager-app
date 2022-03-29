@@ -1,0 +1,18 @@
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  namespace: {{ .Release.Namespace }}
+  name: {{ .Values.name }}
+  labels:
+    {{- include "labels.common" . | nindent 4 }}
+spec:
+  podSelector:
+    matchLabels:
+      k8s-app: {{ .Values.name }}
+  ingress:
+  - {}
+  egress:
+  - {}
+  policyTypes:
+  - Egress
+  - Ingress

@@ -1,0 +1,11 @@
+apiVersion: v1
+appVersion: 1.21.0-alpha.0
+description: A Helm chart to run AWS Cloud Controller Manager
+home: https://github.com/giantswarm/aws-cloud-controller-manager-app
+name: aws-cloud-controller-manager-app
+version: [[ .Version ]]
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: kube-system
+  gpuInstances: false
+  compatibleProviders: [aws]
