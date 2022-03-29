@@ -6,7 +6,8 @@ metadata:
   labels:
     {{- include "labels.common" . | nindent 4 }}
 spec:
-  updateStrategy: RollingUpdate
+  updateStrategy:
+    type: RollingUpdate
   selector:
     matchLabels:
       {{- include "labels.selector" . | nindent 6 }}
