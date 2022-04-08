@@ -36,6 +36,7 @@ spec:
         args:
         - --cloud-provider=aws
         - --port={{ .Values.ports.healthcheck }}
+        - --configure-cloud-routes=false
         - --v=2
         securityContext:
           allowPrivilegeEscalation: false
