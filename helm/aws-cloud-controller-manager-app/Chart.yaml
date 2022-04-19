@@ -9,3 +9,5 @@ restrictions:
   fixedNamespace: kube-system
   gpuInstances: false
   compatibleProviders: [aws]
+annotations:
+  config.giantswarm.io/version: 1.x.x
