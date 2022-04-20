@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.21.0-gs1] - 2022-04-20
+
 ### Added
 
 - Add `config.giantswarm.io/version` annotation to Chart.yaml.
@@ -21,5 +23,6 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial release.
 
-[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.21.0-gs0...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.21.0-gs1...HEAD
+[1.21.0-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.21.0-gs0...v1.21.0-gs1
 [1.21.0-gs0]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v0.0.0...v1.21.0-gs0
