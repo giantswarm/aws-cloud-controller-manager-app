@@ -11,6 +11,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Add `config.giantswarm.io/version` annotation to Chart.yaml.
 
+### Changed
+
+- Push to `giantswarm` catalog instead of `control-plane` one.
+
 ## [1.21.0-gs0] - 2022-04-11
 
 ### Added
