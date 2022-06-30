@@ -41,6 +41,14 @@ spec:
         securityContext:
           allowPrivilegeEscalation: false
           privileged: false
+        readinessProbe:
+          httpGet:
+            host: 127.0.0.1
+            path: /healthz
+            port: {{ .Values.ports.healthcheck }}
+          initialDelaySeconds: 20
+          periodSeconds: 10
+          timeoutSeconds: 5
         livenessProbe:
           httpGet:
             host: 127.0.0.1

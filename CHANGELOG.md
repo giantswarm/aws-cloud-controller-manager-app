@@ -7,6 +7,11 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Switch to default dnsPolicy to avoid circular dependency with coredns.
+- Add readinessProbe to make rollouts smoother.
+
 ## [1.21.0-gs1] - 2022-04-20
 
 ### Added
