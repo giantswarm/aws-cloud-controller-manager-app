@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Add to default catalog.
+
 ## [1.23.2-gs1] - 2022-07-13
 
 ### Changed
