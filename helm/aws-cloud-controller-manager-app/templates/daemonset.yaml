@@ -34,7 +34,7 @@ spec:
         {{- end }}
         args:
         - --cloud-provider=aws
-        - --port={{ .Values.ports.healthcheck }}
+        - --secure-port={{ .Values.ports.healthcheck }}
         - --configure-cloud-routes=false
         - --v=2
         securityContext:
@@ -45,6 +45,7 @@ spec:
             host: 127.0.0.1
             path: /healthz
             port: {{ .Values.ports.healthcheck }}
+            scheme: HTTPS
           initialDelaySeconds: 20
           periodSeconds: 10
           timeoutSeconds: 5
@@ -53,6 +54,7 @@ spec:
             host: 127.0.0.1
             path: /healthz
             port: {{ .Values.ports.healthcheck }}
+            scheme: HTTPS
           initialDelaySeconds: 20
           periodSeconds: 10
           timeoutSeconds: 5
