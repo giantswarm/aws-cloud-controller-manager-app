@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Fixed
+
+- Fix indentation for `requests` and `limits` on the daemonset manifest.
+
 ## [1.24.1-gs1] - 2022-09-13
 
 ### Changed
