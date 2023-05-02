@@ -7,6 +7,11 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Added
+
+- Support for running behind a proxy.
+- Support for using `cluster-apps-operator` specific `cluster.proxy` values.
+
 ## [1.24.1-gs2] - 2023-05-01
 
 ### Fixed
