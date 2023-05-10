@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.24.1-gs5] - 2023-05-10
+
 ### Fixed
 
 - Fix label selector in `NetworkPolicy`.
@@ -72,7 +74,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial release.
 
-[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs4...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs5...HEAD
+[1.24.1-gs5]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs4...v1.24.1-gs5
 [1.24.1-gs4]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs3...v1.24.1-gs4
 [1.24.1-gs3]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs2...v1.24.1-gs3
 [1.24.1-gs2]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs1...v1.24.1-gs2
