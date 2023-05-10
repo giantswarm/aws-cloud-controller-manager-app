@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Added
+
+- Added two new values to set `KUBERNETES_SERVICE_HOST` and `KUBERNETES_SERVICE_PORT`. This is needed because sometimes we install the app before the CNI is installed, and the controller can't talk to the k8s api using the k8s `Service`.
+
 ## [1.24.1-gs5] - 2023-05-10
 
 ### Fixed
