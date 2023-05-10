@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Fixed
+
+- Fix label selector in `NetworkPolicy`.
+
 ## [1.24.1-gs4] - 2023-05-10
 
 ### Changed
