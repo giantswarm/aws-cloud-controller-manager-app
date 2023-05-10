@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Change the `nodeSelector` in the `DaemonSet` from `node-role.kubernetes.io/master: ""` to `node-role.kubernetes.io/control-plane: ""`.
+
 ## [1.24.1-gs3] - 2023-05-02
 
 ### Added

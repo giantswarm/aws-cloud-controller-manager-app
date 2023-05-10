@@ -25,7 +25,7 @@ spec:
       tolerations:
       - operator: "Exists"
       nodeSelector:
-        node-role.kubernetes.io/master: ""
+        node-role.kubernetes.io/control-plane: ""
       containers:
       - name: {{ .Chart.Name }}
         image: "{{ .Values.image.registry }}/{{ .Values.image.name }}:{{ .Values.image.tag }}"
