@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.24.1-gs7] - 2023-05-11
+
 ### Fixed
 
 - Quote environment variables that contain numeric values, because it's required by kubernetes.
@@ -84,7 +86,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial release.
 
-[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs6...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs7...HEAD
+[1.24.1-gs7]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs6...v1.24.1-gs7
 [1.24.1-gs6]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs5...v1.24.1-gs6
 [1.24.1-gs5]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs4...v1.24.1-gs5
 [1.24.1-gs4]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs3...v1.24.1-gs4
