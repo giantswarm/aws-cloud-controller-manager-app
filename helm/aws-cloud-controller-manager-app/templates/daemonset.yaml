@@ -40,11 +40,11 @@ spec:
         env:
         {{- if .Values.k8sServiceHost }}
         - name: KUBERNETES_SERVICE_HOST
-          value: {{ .Values.k8sServiceHost }}
+          value: {{ .Values.k8sServiceHost | quote }}
         {{- end }}
         {{- if .Values.k8sServicePort }}
         - name: KUBERNETES_SERVICE_PORT
-          value: {{ .Values.k8sServicePort }}
+          value: {{ .Values.k8sServicePort | quote }}
         {{- end }}
         {{- $proxy := deepCopy .Values.cluster.proxy |  mustMerge .Values.proxy }}
         {{- if and $proxy.noProxy $proxy.http $proxy.https }}
