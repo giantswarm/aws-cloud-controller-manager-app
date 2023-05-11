@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Fixed
+
+- Quote environment variables that contain numeric values, because it's required by kubernetes.
+
 ## [1.24.1-gs6] - 2023-05-10
 
 ### Added
