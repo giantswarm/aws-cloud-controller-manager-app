@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.24.1-gs6] - 2023-05-10
+
 ### Added
 
 - Added two new values to set `KUBERNETES_SERVICE_HOST` and `KUBERNETES_SERVICE_PORT`. This is needed because sometimes we install the app before the CNI is installed, and the controller can't talk to the k8s api using the k8s `Service`.
@@ -78,7 +80,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial release.
 
-[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs5...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs6...HEAD
+[1.24.1-gs6]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs5...v1.24.1-gs6
 [1.24.1-gs5]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs4...v1.24.1-gs5
 [1.24.1-gs4]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs3...v1.24.1-gs4
 [1.24.1-gs3]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs2...v1.24.1-gs3
