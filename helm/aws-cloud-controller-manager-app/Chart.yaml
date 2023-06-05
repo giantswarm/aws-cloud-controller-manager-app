@@ -10,4 +10,5 @@ restrictions:
   gpuInstances: false
   compatibleProviders: [aws]
 annotations:
+  application.giantswarm.io/team: "phoenix"
   config.giantswarm.io/version: 1.x.x
