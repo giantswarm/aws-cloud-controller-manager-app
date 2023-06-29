@@ -30,6 +30,9 @@ test:
 
 verticalPodAutoscaler:
   enabled: true
+  minAllowed:
+    cpu: 200m
+    memory: 300Mi
 
 # set the HTTP_PROXY, HTTPS_PROXY and NO_PROXY variable
 proxy:
