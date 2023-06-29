@@ -10,6 +10,8 @@ spec:
   resourcePolicy:
     containerPolicies:
     - containerName: {{ .Chart.Name }}
+      controlledValues: RequestsAndLimits
+      mode: "Auto"
       minAllowed:
         cpu: "200m"
         memory: "300Mi"
