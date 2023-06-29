@@ -10,10 +10,12 @@ image:
   name: giantswarm/aws-cloud-controller-manager
   tag: v1.24.1
 
+# We set the limit twice as the requests so that the VPA
+# can keep the ratio when scaling
 resources:
   limits:
-    cpu: 200m
-    memory: 300Mi
+    cpu: 400m
+    memory: 600Mi
   requests:
     cpu: 200m
     memory: 300Mi
