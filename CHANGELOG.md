@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.24.2] - 2023-06-30
+
 ### Changed
 
 - Adjusted minimum allowed CPU and memory
@@ -96,7 +98,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial release.
 
-[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs8...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.2...HEAD
+[1.24.2]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs8...v1.24.2
 [1.24.1-gs8]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs7...v1.24.1-gs8
 [1.24.1-gs7]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs6...v1.24.1-gs7
 [1.24.1-gs6]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs5...v1.24.1-gs6
