@@ -55,4 +55,3 @@ k8sServicePort: ""
 global:
   podSecurityStandards:
     enforced: false
-
