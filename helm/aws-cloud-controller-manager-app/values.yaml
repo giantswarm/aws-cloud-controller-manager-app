@@ -51,3 +51,7 @@ cluster:
 # These are useful when installing the controller without CNI or kube-proxy and we need to find an alternative way for the controller to talk to the k8s API.
 k8sServiceHost: ""
 k8sServicePort: ""
+
+global:
+  podSecurityStandards:
+    enforced: false

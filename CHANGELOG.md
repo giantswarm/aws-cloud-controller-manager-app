@@ -7,6 +7,14 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Fixed
+
+- Add required values for pss policies.
+
+### Added
+
+- Add toggle mechanism for `PSPs`.
+
 ## [1.24.1-gs9] - 2023-06-30
 
 ### Changed
