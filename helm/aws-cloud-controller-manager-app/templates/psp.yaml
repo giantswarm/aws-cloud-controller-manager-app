@@ -33,4 +33,3 @@ spec:
         max: 65535
   readOnlyRootFilesystem: true
 {{- end }}
-
