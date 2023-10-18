@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.24.1-gs10] - 2023-10-18
+
 ### Fixed
 
 - Add required values for pss policies.
@@ -106,7 +108,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial release.
 
-[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs9...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs10...HEAD
+[1.24.1-gs10]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs9...v1.24.1-gs10
 [1.24.1-gs9]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs8...v1.24.1-gs9
 [1.24.1-gs8]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs7...v1.24.1-gs8
 [1.24.1-gs7]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs6...v1.24.1-gs7
