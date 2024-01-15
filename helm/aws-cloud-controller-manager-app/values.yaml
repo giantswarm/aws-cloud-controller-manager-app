@@ -8,7 +8,7 @@ serviceType: managed
 image:
   registry: quay.io
   name: giantswarm/aws-cloud-controller-manager
-  tag: v1.24.1
+  tag: v1.25.14
 
 # We set the limit twice as the requests so that the VPA
 # can keep the ratio when scaling
