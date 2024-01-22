@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.25.14-gs2] - 2024-01-22
+
 ### Changed
 
 - Configure `gsoci.azurecr.io` as the default container image registry.
@@ -118,7 +120,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial release.
 
-[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.25.14-gs1...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.25.14-gs2...HEAD
+[1.25.14-gs2]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.25.14-gs1...v1.25.14-gs2
 [1.25.14-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs10...v1.25.14-gs1
 [1.24.1-gs10]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs9...v1.24.1-gs10
 [1.24.1-gs9]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.24.1-gs8...v1.24.1-gs9
