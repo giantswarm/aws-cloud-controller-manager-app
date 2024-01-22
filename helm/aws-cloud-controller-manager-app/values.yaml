@@ -6,7 +6,7 @@ name: aws-cloud-controller-manager
 serviceType: managed
 
 image:
-  registry: quay.io
+  registry: gsoci.azurecr.io
   name: giantswarm/aws-cloud-controller-manager
   tag: v1.25.14
 
