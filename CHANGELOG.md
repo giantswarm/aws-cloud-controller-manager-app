@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Reduce minimum CPU and memory requests.
+
 ## [1.25.14-gs2] - 2024-01-22
 
 ### Changed
