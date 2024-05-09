@@ -17,8 +17,8 @@ resources:
     cpu: 400m
     memory: 600Mi
   requests:
-    cpu: 200m
-    memory: 300Mi
+    cpu: 50m
+    memory: 75Mi
 
 ports:
   healthcheck: 10267
@@ -31,8 +31,8 @@ test:
 verticalPodAutoscaler:
   enabled: true
   minAllowed:
-    cpu: 200m
-    memory: 300Mi
+    cpu: 50m
+    memory: 50Mi
 
 # set the HTTP_PROXY, HTTPS_PROXY and NO_PROXY variable
 proxy:
