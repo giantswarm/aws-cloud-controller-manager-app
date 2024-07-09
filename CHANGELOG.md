@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Update aws-cloud-controller-manager upstream version to v1.27.7.
+
 ## [1.26.11-gs1] - 2024-07-05
 
 ### Changed
