@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.28.6-gs1] - 2024-07-10
+
 ### Changed
 
 - Update aws-cloud-controller-manager upstream version to v1.28.6.
@@ -142,7 +144,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial release.
 
-[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.27.7-gs1...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.28.6-gs1...HEAD
+[1.28.6-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.27.7-gs1...v1.28.6-gs1
 [1.27.7-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.26.11-gs1...v1.27.7-gs1
 [1.26.11-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.25.14-gs3...v1.26.11-gs1
 [1.25.14-gs3]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.25.14-gs2...v1.25.14-gs3
