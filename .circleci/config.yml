@@ -1,30 +1,27 @@
 version: 2.1
+
 orbs:
-  architect: giantswarm/architect@4.13.0
+  architect: giantswarm/architect@5.2.1
 
 workflows:
-  version: 2
   build:
     jobs:
       - architect/push-to-app-catalog:
+          name: push-to-default-catalog
           context: architect
-          name: push-to-giantswarm-app-catalog
-          app_catalog: "giantswarm-catalog"
-          app_catalog_test: "giantswarm-test-catalog"
-          chart: "aws-cloud-controller-manager-app"
+          chart: aws-cloud-controller-manager-app
+          app_catalog: default-catalog
+          app_catalog_test: default-test-catalog
           filters:
-            # Trigger the job also on git tag.
             tags:
               only: /^v.*/
 
       - architect/push-to-app-catalog:
+          name: push-to-giantswarm-catalog
           context: architect
-          name: push-to-default-app-catalog
-          app_catalog: "default-catalog"
-          app_catalog_test: "default-test-catalog"
-          chart: "aws-cloud-controller-manager-app"
+          chart: aws-cloud-controller-manager-app
+          app_catalog: giantswarm-catalog
+          app_catalog_test: giantswarm-test-catalog
           filters:
-            # Trigger the job also on git tag.
             tags:
               only: /^v.*/
-

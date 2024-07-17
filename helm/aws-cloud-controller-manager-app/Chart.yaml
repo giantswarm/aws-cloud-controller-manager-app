@@ -1,14 +1,15 @@
 apiVersion: v1
-appVersion: 1.28.6
-description: A Helm chart to run AWS Cloud Controller Manager
-home: https://github.com/giantswarm/aws-cloud-controller-manager-app
 name: aws-cloud-controller-manager-app
+description: A Helm chart to run AWS Cloud Controller Manager.
 version: [[ .Version ]]
+appVersion: 1.28.6
+home: https://github.com/giantswarm/aws-cloud-controller-manager-app
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+annotations:
+  application.giantswarm.io/team: phoenix
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/aws/2/dark.svg
 restrictions:
   clusterSingleton: true
   fixedNamespace: kube-system
   gpuInstances: false
   compatibleProviders: [aws]
-annotations:
-  application.giantswarm.io/team: "phoenix"
-  config.giantswarm.io/version: 1.x.x

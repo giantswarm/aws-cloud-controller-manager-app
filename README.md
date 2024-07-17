@@ -1,5 +1,5 @@
-[![CircleCI](https://circleci.com/gh/giantswarm/aws-cloud-controller-manager-app/tree/main.svg?style=svg)](https://circleci.com/gh/giantswarm/aws-cloud-controller-manager-app/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/giantswarm/aws-cloud-controller-manager-app.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/giantswarm/aws-cloud-controller-manager-app)
 
 # aws-cloud-controller-manager-app
 
-This App deploys out-of-tree cloud controller manager for AWS, see https://cloud-provider-aws.sigs.k8s.io/ .
+This app deploys the [out-of-tree cloud controller manager for AWS](https://cloud-provider-aws.sigs.k8s.io).
