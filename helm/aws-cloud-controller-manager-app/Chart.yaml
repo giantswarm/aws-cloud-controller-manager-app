@@ -1,8 +1,8 @@
 apiVersion: v1
 name: aws-cloud-controller-manager-app
 description: A Helm chart to run AWS Cloud Controller Manager.
-version: [[ .Version ]]
-appVersion: 1.30.3
+version: 0.0.1-dev
+appVersion: 0.0.1-dev
 home: https://github.com/giantswarm/aws-cloud-controller-manager-app
 icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
 annotations:
