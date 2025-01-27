@@ -34,6 +34,25 @@ verticalPodAutoscaler:
     cpu: 50m
     memory: 50Mi
 
+podSecurityContext:
+  runAsUser: 65534
+  runAsGroup: 65534
+  seccompProfile:
+    type: RuntimeDefault
+
+securityContext:
+  runAsUser: 65534
+  runAsGroup: 65534
+  runAsNonRoot: true
+  privileged: false
+  allowPrivilegeEscalation: false
+  readOnlyRootFilesystem: true
+  capabilities:
+    drop:
+      - ALL
+  seccompProfile:
+    type: RuntimeDefault
+
 # set the HTTP_PROXY, HTTPS_PROXY and NO_PROXY variable
 proxy:
   noProxy:
@@ -51,7 +70,3 @@ cluster:
 # These are useful when installing the controller without CNI or kube-proxy and we need to find an alternative way for the controller to talk to the k8s API.
 k8sServiceHost: ""
 k8sServicePort: ""
-
-global:
-  podSecurityStandards:
-    enforced: false
