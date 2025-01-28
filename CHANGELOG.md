@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.31.0] - 2025-01-28
+
 ### Added
 
 - Add security context to the container for PSS.
@@ -164,7 +166,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial release.
 
-[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.30.3-gs1...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.31.0...HEAD
+[1.31.0]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.30.3-gs1...v1.31.0
 [1.30.3-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.29.3-gs1...v1.30.3-gs1
 [1.29.3-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.28.6-gs1...v1.29.3-gs1
 [1.28.6-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.27.7-gs1...v1.28.6-gs1
