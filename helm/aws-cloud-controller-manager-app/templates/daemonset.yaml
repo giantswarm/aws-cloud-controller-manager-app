@@ -1,6 +1,8 @@
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
+  annotations:
+    ignore-check.kube-linter.io/host-network: "This deployment needs to run as host network"
   name: {{ .Values.name }}
   namespace: {{ .Release.Namespace }}
   labels:
@@ -18,8 +20,9 @@ spec:
     spec:
       priorityClassName: system-node-critical
       securityContext:
-        runAsUser: 0
-        runAsGroup: 0
+        {{- with .Values.podSecurityContext }}
+          {{- . | toYaml | nindent 8 }}
+        {{- end }}
       serviceAccountName: {{ .Values.name }}
       hostNetwork: true
       tolerations:
@@ -61,9 +64,13 @@ spec:
         - name: https_proxy
           value: {{ $proxy.https }}
         {{- end }}
+        ports:
+        - containerPort: {{ .Values.ports.healthcheck }}
+          name: healthcheck
         securityContext:
-          allowPrivilegeEscalation: false
-          privileged: false
+          {{- with .Values.securityContext }}
+            {{- . | toYaml | nindent 10 }}
+          {{- end }}
         readinessProbe:
           httpGet:
             host: 127.0.0.1

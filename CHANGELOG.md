@@ -7,6 +7,14 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Added
+
+- Add security context to the container for PSS.
+
+### Remove
+
+- Remove PSP manifest.
+
 ## [1.30.3-gs1] - 2024-09-02
 
 ### Changed
