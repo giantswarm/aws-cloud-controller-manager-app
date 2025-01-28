@@ -1,6 +1,8 @@
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
+  annotations:
+    ignore-check.kube-linter.io/host-network: "This deployment needs to run as host network"
   name: {{ .Values.name }}
   namespace: {{ .Release.Namespace }}
   labels:
@@ -62,6 +64,9 @@ spec:
         - name: https_proxy
           value: {{ $proxy.https }}
         {{- end }}
+        ports:
+        - containerPort: {{ .Values.ports.healthcheck }}
+          name: healthcheck
         securityContext:
           {{- with .Values.securityContext }}
             {{- . | toYaml | nindent 10 }}
