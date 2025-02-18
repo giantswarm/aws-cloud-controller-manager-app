@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.30.7-gs2] - 2025-02-18
+
 ### Changed
 
 - Chart: Remove duplicate service account. ([#87](https://github.com/giantswarm/aws-cloud-controller-manager-app/pull/87))
@@ -176,7 +178,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial release.
 
-[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.30.7-gs1...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.30.7-gs2...HEAD
+[1.30.7-gs2]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.30.7-gs1...v1.30.7-gs2
 [1.30.7-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.30.3-gs2...v1.30.7-gs1
 [1.30.3-gs2]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.30.3-gs1...v1.30.3-gs2
 [1.30.3-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.29.3-gs1...v1.30.3-gs1
