@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Values: Fix proxy schema. ([#89](https://github.com/giantswarm/aws-cloud-controller-manager-app/pull/89))
+
 ## [1.30.7-gs2] - 2025-02-18
 
 ### Changed

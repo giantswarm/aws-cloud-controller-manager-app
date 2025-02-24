@@ -55,16 +55,16 @@ securityContext:
 
 # set the HTTP_PROXY, HTTPS_PROXY and NO_PROXY variable
 proxy:
-  noProxy:
-  http:
-  https:
+  noProxy: ""
+  http: ""
+  https: ""
 cluster:
   # is getting overwritten by the top level proxy if set
   # These values are generated via cluster-apps-operator
   proxy:
-    noProxy:
-    http:
-    https:
+    noProxy: ""
+    http: ""
+    https: ""
 
 # These values set the `KUBERNETES_SERVICE_HOST` and `KUBERNETES_SERVICE_PORT` environment variables.
 # These are useful when installing the controller without CNI or kube-proxy and we need to find an alternative way for the controller to talk to the k8s API.
