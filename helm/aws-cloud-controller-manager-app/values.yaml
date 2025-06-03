@@ -8,7 +8,7 @@ serviceType: managed
 image:
   registry: gsoci.azurecr.io
   name: giantswarm/aws-cloud-controller-manager
-  tag: v1.30.8
+  tag: v1.31.5
 
 # We set the limit twice as the requests so that the VPA
 # can keep the ratio when scaling
