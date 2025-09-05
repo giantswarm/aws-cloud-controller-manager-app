@@ -7,6 +7,13 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.32.4-1] - 2025-09-05
+
+### Changed
+
+- Chart: Update to upstream v1.32.4
+- Switch to semver-compatible release name
+
 ## [1.32.3-gs1] - 2025-08-27
 
 ### Changed
@@ -202,7 +209,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial release.
 
-[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.32.3-gs1...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.32.4-1...HEAD
+[1.32.4-1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.32.3-gs1...v1.32.4-1
 [1.32.3-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.31.5-gs1...v1.32.3-gs1
 [1.31.5-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.30.8-gs1...v1.31.5-gs1
 [1.30.8-gs1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.30.7-gs3...v1.30.8-gs1
