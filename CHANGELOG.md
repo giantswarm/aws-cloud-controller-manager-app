@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Added
+
+- Add basic e2e tests.
+
 ## [1.33.2-1] - 2025-09-30
 
 ### Changed
