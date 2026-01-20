@@ -1,4 +1,4 @@
-appName: "aws-cloud-controller-manager-app"
+appName: "cloud-provider-aws"
 repoName: "aws-cloud-controller-manager-app"
 appCatalog: "giantswarm"
 
