@@ -1,0 +1,5 @@
+appName: aws-cloud-controller-manager-app
+repoName: aws-cloud-controller-manager-app
+appCatalog: default
+providers:
+  - capa
