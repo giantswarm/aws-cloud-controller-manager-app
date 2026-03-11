@@ -24,7 +24,6 @@ func TestBasic(t *testing.T) {
 	suite.New().
 		WithInstallNamespace(daemonSetNamespace).
 		WithIsUpgrade(false).
-		WithValuesFile("./values.yaml").
 		Tests(func() {
 			It("should have the aws-cloud-controller-manager DaemonSet running", func() {
 				wcClient, err := state.GetFramework().WC(state.GetCluster().Name)
