@@ -15,8 +15,5 @@ annotations:
   io.giantswarm.application.upstream-chart-url: https://github.com/kubernetes/cloud-provider-aws
   io.giantswarm.application.restrictions.cluster-singleton: "true"
   io.giantswarm.application.restrictions.compatible-providers: "aws"
-restrictions:
-  clusterSingleton: true
-  fixedNamespace: kube-system
-  gpuInstances: false
-  compatibleProviders: [aws]
+  io.giantswarm.application.restrictions.gpu-instances: "false"
+  io.giantswarm.application.restrictions.fixed-namespace: kube-system
