@@ -8,6 +8,13 @@ icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
 annotations:
   application.giantswarm.io/team: phoenix
   ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+  io.giantswarm.application.audience: all
+  io.giantswarm.application.managed: "true"
+  io.giantswarm.application.team: phoenix
+  io.giantswarm.application.upstream-chart-version: "1.35.0"
+  io.giantswarm.application.upstream-chart-url: https://github.com/kubernetes/cloud-provider-aws
+  io.giantswarm.application.restrictions.cluster-singleton: "true"
+  io.giantswarm.application.restrictions.compatible-providers: "aws"
 restrictions:
   clusterSingleton: true
   fixedNamespace: kube-system
