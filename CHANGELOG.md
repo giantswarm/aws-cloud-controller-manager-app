@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [2.2.0] - 2026-03-13
+
 ### Changed
 
 - Add `io.giantswarm.application.audience: all` annotation to publish the app to the customer Backstage catalog.
@@ -235,7 +237,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Initial release.
 
-[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v2.1.0...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v2.2.0...HEAD
+[2.2.0]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.33.2-1...v2.0.0
 [1.33.2-1]: https://github.com/giantswarm/aws-cloud-controller-manager-app/compare/v1.32.3...v1.33.2-1
