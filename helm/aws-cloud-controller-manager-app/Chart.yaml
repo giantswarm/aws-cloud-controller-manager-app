@@ -6,7 +6,6 @@ appVersion: 1.35.0
 home: https://github.com/giantswarm/aws-cloud-controller-manager-app
 icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
 annotations:
-  application.giantswarm.io/team: phoenix
   ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/aws/2/dark.svg
   io.giantswarm.application.audience: all
   io.giantswarm.application.managed: "true"
