@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/giantswarm/apptest-framework/v3/pkg/state"
-	"github.com/giantswarm/apptest-framework/v3/pkg/suite"
-	"github.com/giantswarm/clustertest/v3/pkg/logger"
+	"github.com/giantswarm/apptest-framework/v5/pkg/state"
+	"github.com/giantswarm/apptest-framework/v5/pkg/suite"
+	"github.com/giantswarm/clustertest/v5/pkg/logger"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	appsv1 "k8s.io/api/apps/v1"
