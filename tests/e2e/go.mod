@@ -3,7 +3,7 @@ module e2e
 go 1.27.3
 
 require (
-	github.com/giantswarm/apptest-framework/v5 v5.4.2
+	github.com/giantswarm/apptest-framework/v5 v5.4.4
 	github.com/giantswarm/clustertest/v5 v5.6.6
 	github.com/onsi/ginkgo/v2 v2.34.0
 	github.com/onsi/gomega v1.44.0
@@ -50,7 +50,7 @@ require (
 	github.com/fsnotify/fsnotify v1.10.1 // indirect
 	github.com/fxamacker/cbor/v2 v2.10.0 // indirect
 	github.com/giantswarm/apiextensions-application v0.6.2 // indirect
-	github.com/giantswarm/cluster-standup-teardown/v6 v6.1.3 // indirect
+	github.com/giantswarm/cluster-standup-teardown/v6 v6.1.4 // indirect
 	github.com/giantswarm/gitsemver/v2 v2.0.1 // indirect
 	github.com/giantswarm/gitsemver/v3 v3.0.12 // indirect
 	github.com/giantswarm/k8smetadata v0.26.0 // indirect
@@ -93,7 +93,7 @@ require (
 	github.com/google/go-github/v92 v92.0.0 // indirect
 	github.com/google/go-github/v93 v93.0.0 // indirect
 	github.com/google/go-querystring v1.2.0 // indirect
-	github.com/google/pprof v0.0.0-20261016150608-1facf8f91b50 // indirect
+	github.com/google/pprof v0.0.0-20261026192309-dbd0ed30aa88 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674 // indirect
 	github.com/gosuri/uitable v0.0.4 // indirect
