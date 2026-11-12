@@ -7,9 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
-### Fixed
+### Changed
 
 - The `helm.sh/chart` label is valid for long chart versions: the 63-character cut trims the whole trailing run of `-`, `.` and `_`.
+- Chart: Update to upstream v1.37.0.
 
 ## [2.2.0] - 2026-09-09
 
